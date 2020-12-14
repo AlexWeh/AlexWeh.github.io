@@ -1,0 +1,36 @@
+<svg width="105" height="1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="hidden">
+    <defs>
+        <clipPath id="clip0">
+            <rect x="0" y="0" width="105" height="1000" />
+        </clipPath>
+    </defs>
+    <g clip-path="url(#clip0)">
+        <rect x="0" y="0" width="105" height="1000" fill="none" />
+        
+        <path d="M0 0C13.8027 0 27.6054 7.90738 27.6054 15.8148 27.6054 23.7222 41.408 31.6296 55.2107 31.6296" stroke="#289BD4" stroke-width="5" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(0 1 1 0 15 75)" />
+        <!-- s open vamed-->
+        <path d="M20 212.211C17 198.408 27.907 184.605 32.815 184.605 39.722 184.605 50.63 170.803 50.63 157" stroke="#289BD4" stroke-width="5" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 1 -5 0)" />
+        <!-- S merge Vamed-->
+        <path d="M0 0C30.7834 0 61.5668 18.9019 61.5668 37.8037 61.5668 56.7056 92.3502 75.6073 123.134 75.6073" stroke="#009999" stroke-width="5" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(0 1 1 0 15 230)" />
+        <!-- S open Siemens-->
+        <path d="M20 612C17 577 33.611 542 53.222 542 72.833 542 95 507 95 472" stroke="#05CCCC" stroke-width="5" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 1 -5 0)"/>
+        <!-- S merge next47-->
+        
+        <line x1="15" y1="0" x2="15" y2="60" style="stroke:rgb(0,0,0);stroke-width:5"/><!-- start-->
+        <line x1="15" y1="60" x2="15" y2="230" style="stroke:rgb(0,0,0);stroke-width:5"/><!-- nach Abi-->
+        <line x1="15" y1="230" x2="15" y2="360" style="stroke:rgb(0,153,153);stroke-width:5"/><!-- ihk-->
+        <line x1="90" y1="350" x2="90" y2="460" style="stroke:rgb(0,153,153);stroke-width:5" /><!-- bachelor siemens-->
+        <line x1="15" y1="360" x2="15" y2="700" style="stroke:rgb(0,204,204);stroke-width:5"/><!-- next47-->
+        <line x1="15" y1="700" x2="15" y2="840" style="stroke:rgb(252,85,85);stroke-width:5" /><!-- hm solid-->
+        <line x1="15" y1="840" x2="15" y2="910" style="stroke:rgb(252,85,85);stroke-width:5" stroke-dasharray="15 5" /><!-- hm dashed-->
+        <line x1="15" y1="910" x2="15" y2="1000" style="stroke:rgb(0,0,0);stroke-width:5"  stroke-dasharray="15 5"/><!-- future dashed black-->
+        
+        <circle cx="15" cy="60" r="15" stroke-width="3" fill="black" /><!-- abi black-->
+        <circle cx="45" cy="145" r="15" stroke-width="3" fill="rgb(40,155,212)" /><!-- vamed blue-->
+        <circle cx="15" cy="230" r="15" stroke-width="3" fill="rgb(0,153,153)" /><!-- dual start siemens-->
+        <circle cx="15" cy="360" r="15" stroke-width="3" fill="rgb(0,204,204)" /><!-- ihk next47-->
+        <circle cx="90" cy="460" r="15" stroke-width="3" fill="rgb(0,153,153)" /><!-- bachelor siemens-->
+        <circle cx="15" cy="700" r="15" stroke-width="3" fill="rgb(252,85,85)" /><!-- hm red-->
+        <circle cx="15" cy="910" r="15" stroke-width="3" fill="rgb(252,85,85)" /><!--hm red-->
+    </g>
+</svg>

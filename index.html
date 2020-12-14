@@ -1,1 +1,438 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            h4{
+                padding-top: 52px;
+            }
+        </style>
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="200">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <div class="container">
+            <div class="mr-auto">
+                <a class="navbar-brand" href="#">
+                    <div class="font-weight-bold">Resume</div>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="nav nav-pills ml-auto">
+                    <li>
+                        <a class="btn btn-light mr-2" href="https://www.linkedin.com/in/alexander-wehning/"><img
+                                style="width: 20px; height: auto; margin: -5px 5px 0 0;" src="linkedin.png">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a class="btn btn-light mr-2" href="https://github.com/AlexWeh"><img
+                                style="width: 20px; height: auto; margin: -5px 5px 0 0;"
+                                src="mark-github.svg">Github</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#details">Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h4 id="about" class="mb-3"><u>About</u></h4>
+        <p>Hi, my name is Alexander Wehning, I'm from Germany and 24 years old. Im interested in all kinds of technology
+        </p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the</p>
+        <div class="card my-3">
+            <div class="card-header">
+                Timeline
+            </div>
+            <div class="card-body">
+                <img style="position: relative;" class="mx-auto d-block" src="git.svg">
+
+                <div class="popover show bs-popover-left" role="tooltip" x-placement="left"
+                    style="position: absolute; top: 8%; left: auto; right: 58%; will-change: transform; z-index: 0;">
+                    <div class="arrow" style="top: 24px;"></div>
+                    <h3 class="popover-header">06/2015</h3>
+                    <div class="popover-body">Finshed "Abitur" / A-Level</div>
+                </div>
+                <div class="popover fade show bs-popover-right" role="tooltip" x-placement="right"
+                    style="position: absolute; top: 16%; right: auto; left: 55%; will-change: transform; z-index: 0;">
+                    <div class="arrow" style="top: 24px;"></div>
+                    <h3 class="popover-header">07/2015 - 08/2015</h3>
+                    <div class="popover-body">Internship at Vamed in Medical Technology
+                        <br /><a href="#internship">Read more ...</a>
+                    </div>
+                </div>
+                <div class="popover fade show bs-popover-left" role="tooltip" x-placement="left"
+                    style="position: absolute; top: 24%; left: auto; right: 58%; will-change: transform; z-index: 0;">
+                    <div class="arrow" style="top: 24px;"></div>
+                    <h3 class="popover-header">09/2015</h3>
+                    <div class="popover-body">Began Dual Studying Programm at Siemens
+                        <br /><a href="#dual">Read more ...</a>
+                    </div>
+                </div>
+                <div class="popover fade show bs-popover-left" role="tooltip" x-placement="left"
+                    style="position: absolute; top: 36%; left: auto; right: 58%; will-change: transform; z-index: 0;">
+                    <div class="arrow" style="top: 24px;"></div>
+                    <h3 class="popover-header">06/2018</h3>
+                    <div class="popover-body">Finished Training as IT Specialist, System Integration (IHK)</div>
+                    <div class="dropdown-divider"></div>
+                    <div class="popover-body">Started working at Next47 GmbH as IT-Associate
+                        <br /><a href="#next47">Read more ...</a>
+                    </div>
+                </div>
+                <div class="popover fade show bs-popover-right" role="tooltip" x-placement="right"
+                    style="position: absolute; top: 45%; right: auto; left: 58%; will-change: transform; z-index: 0;">
+                    <div class="arrow" style="top: 24px;"></div>
+                    <h3 class="popover-header">02/2019</h3>
+                    <div class="popover-body">Finished B.Sc. IT-Magement at the Steinbeis University
+                        <br /><a href="#dual">Read more ...</a>
+                    </div>
+                </div>
+                <div class="popover fade show bs-popover-right" role="tooltip" x-placement="right"
+                    style="position: absolute; top: 67%; right: auto; left: 52%; will-change: transform; z-index: 0;">
+                    <div class="arrow" style="top: 24px;"></div>
+                    <h3 class="popover-header">03/2020</h3>
+                    <div class="popover-body">Begin Masters Degree in Computer Science at University of Applied Science
+                        Munich
+                        <br /><a href="#master">Read more ...</a>
+                    </div>
+                </div>
+                <div class="popover fade show bs-popover-right" role="tooltip" x-placement="right"
+                    style="position: absolute; top: 86%; right: auto; left: 52%; will-change: transform; z-index: 0;">
+                    <div class="arrow" style="top: 24px;"></div>
+                    <h3 class="popover-header">~09/2021</h3>
+                    <div class="popover-body">Finishing M.Sc. Computer Science ("Informatik")
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h4 id="projects" class="mb-3"><u>Projects</u></h4>
+            <div class="card my-3">
+                <h5 class="card-header">Riot API Project <span class="badge badge-secondary">Featured</span></h5>
+                <div class="card-body">
+                    <p>This project uses the Riot API to query TeamFightTactics(TFT) matches. To datamine the best team
+                        combination, this project takes a playername (choose a top player here) an crawls from thereon
+                        through the other participants of the match to collect information of selected characters and
+                        combinations.</p>
+                    <p>It is implemented in in three different ways to learn and showcase the pros and cons of the
+                        different
+                        platforms and laguages</p>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <a href="https://github.com/AlexWeh">
+                                        <h5 class="card-title text-dark">riotForce-force</h5>
+                                    </a>
+                                    Progress:
+                                    <div class="progress">
+
+                                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                            style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <div class="my-2">
+                                        <span class="badge badge-secondary">Salesforce</span>
+                                        <span class="badge badge-secondary">SFDX</span>
+                                        <span class="badge badge-secondary">LWC</span>
+                                        <span class="badge badge-secondary">Apex</span>
+                                    </div>
+                                    <p class="card-text">This version leverages the build in function of the Salesforce
+                                        platform. It uses the database function of APEX, the frontend with LWC und the
+                                        connecting back-end embedded in the SF platform </p>
+                                    <h6 class="text-success">+ Pros</h6>
+                                    <div>+ Easy setup and implementation</div>
+                                    <div>+ Fast schema setup</div>
+                                    <div>+ Consistent database access</div>
+                                    <div>+ Easy UI integration</div>
+                                    <div>+ Simple data analysis</div>
+
+                                    <h6 class="text-danger mt-3">- Cons</h6>
+                                    <div>- Platform bound</div>
+                                    <div>- Query quotas</div>
+
+                                    <h6 class="text-warning mt-3">-> ToDos</h6>
+                                    <div>-> Fix database schema</div>
+                                    <div>-> Handle DB and API quotas</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <a href="https://github.com/AlexWeh">
+                                        <h5 class="card-title text-dark">riotForce-javascript</h5>
+                                    </a>
+                                    Progress:
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                            style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <div class="my-2">
+                                        <span class="badge badge-secondary">JavaScript</span>
+                                        <span class="badge badge-secondary">SQLite</span>
+                                        <span class="badge badge-secondary">LWC</span>
+                                        <span class="badge badge-secondary">Express</span>
+
+                                    </div>
+                                    <p class="card-text">The JavaScript version is implemented with asynchronous request
+                                        in mind. It uses the open-source LWC project to deliver a front-end</p>
+                                    <h6 class="text-success">+ Pros</h6>
+                                    <div>+ Made for API requests</div>
+                                    <div>+ Easy asynchronous handling</div>
+
+                                    <h6 class="text-danger mt-3">- Cons</h6>
+                                    <div>- Chaining of error handling</div>
+                                    <div>- </div>
+
+                                    <h6 class="text-warning mt-3">-> ToDos</h6>
+                                    <div>-> Fix request chain</div>
+                                    <div>-> Fix error handling</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <a href="https://github.com/AlexWeh">
+                                        <h5 class="card-title text-dark">riotForce-java</h5>
+                                    </a>
+                                    Progress:
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                            style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <div class="my-2">
+                                        <span class="badge badge-secondary">Java</span>
+                                        <span class="badge badge-secondary">SQLite</span>
+                                        <span class="badge badge-secondary">CMD</span>
+                                    </div>
+                                    <p class="card-text">This is a pure command-line application optimized for
+                                        performence with multi-threading and local database access</p>
+                                    <h6 class="text-success">+ Pros</h6>
+                                    <div>+ Roubust</div>
+                                    <div>+ Comprehensible structure</div>
+                                    <div>+ Multi Platform</div>
+
+                                    <h6 class="text-danger mt-3">- Cons</h6>
+                                    <div>- Manuel database access <br />(without hibernate)</div>
+                                    <div>- No GUI (exceeds project scope)</div>
+
+                                    <h6 class="text-warning mt-3">-> ToDos</h6>
+                                    <div>-> Fix database access</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card my-3">
+            <h5 class="card-header">Other Projects</h5>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <a href="https://github.com/AlexWeh">
+                                    <h5 class="card-title text-dark">PicPicker</h5>
+                                </a>
+                                Progress:
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                        style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                                <div class="my-2">
+                                    <span class="badge badge-secondary">C#</span>
+                                    <span class="badge badge-secondary">.Net</span>
+                                    <span class="badge badge-secondary">GUI</span>
+                                </div>
+                                <p class="card-text">PicPicker is a .Net Core/C# based application to tag people in
+                                    photos manually. It has a GUI to pick faces and set names. When the pictures are
+                                    saved, the information is stored in the metadata as json</p>
+                                <h6 class="text-warning mt-3">-> ToDos</h6>
+                                <div>-> Error handling</div>
+                                <div>-> File saving</div>
+                                <div>-> Unified Metadata across platforms</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text-dark"><img src="lock.svg"
+                                        style="margin: -5px 5px 0 0;">ComplaintHelper</h5>
+                                Progress:
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-dark" role="progressbar"
+                                        style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                                <div class="my-2">
+                                    <span class="badge badge-secondary">JavaScript</span>
+                                    <span class="badge badge-secondary">Angular</span>
+                                    <span class="badge badge-secondary">WebApp</span>
+                                </div>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h4 id="details" class="mb-3"><u>Details</u></h4>
+            <div class="my-3">
+                <h5 id="internship">Internship Vamed</h5>
+            </div>
+            <div class="my-3">
+                <h5 id="dual">Dual Studying at Siemens</h5>
+            </div>
+            <p>
+                The three-year dual studying program in IT-Management stitched together the theoretical knowledge of the
+                studying, the training in system integrations, and gaining practical experience in the Siemens
+                environment.
+                Half of the time was spent in different departments in the company. Amongst others, in the R&D
+                department
+                (Corporate Technology), as research support, in the IT demand management and in Information Security.
+            </p>
+
+            <div class="my-3">
+                <h5 id="next47">Working Next47 as IT-Assoicate</h5>
+                <p>
+                    Next47 (a Siemens company) is active in the venture capital market in finding startups,
+                    collaborating
+                    and investing. By implementing and using a cloud-based infrastructure the small IT team at Next47 is
+                    enabling the investment experts in their day-to-day business. My role mostly focused on the CRM
+                    platform
+                    Salesforce, but I also worked on other solution like Azure (AD, API Management, VMs), Cisco Meraki
+                    Infrastructure and Box cloud storage. The work environment is very dynamic and the individual
+                    responsibility high.
+                    Salesforce experience:
+                <ul>
+                    <li>APEX & Visualforce</li>
+                    <li>Administration (Fields, Objects, Flows)</li>
+                    <li>Data Management (Im-/Exports, Analytics)</li>
+                </ul>
+                </p>
+            </div>
+            <div class="my-3">
+                <h5 id="master">Masters Degree at "Hochschule München" <span
+                        class="badge badge-secondary">Current</span></h5>
+                <p>
+                    The Masters Degree at the Munich University of Applied Sciences
+                </p>
+            </div>
+        </div>
+        <div>
+            <h4 id="skills" class="mb-3"><u>Skills</u></h4>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Knowledge in Programming Languages and Platforms</h5>
+                            <p class="card-text">
+                            <ul>
+                                <u><strong>Languages</strong></u>
+                                <li>Java <span class="badge badge-success">Good</span></li>
+                                <li>JavaScript <span class="badge badge-success">Good</span>
+                                    <ul>LWC (Express)</ul>
+                                    <ul>Angular</ul>
+                                    <ul>HTML/CSS</ul>
+                                </li>
+                                <li>C# <span class="badge badge-primary">Medium</span></li>
+                                <li>Python <span class="badge badge-primary">Medium</span></li>
+                                <li>C <span class="badge badge-secondary">Beginner</span></li>
+                                <br />
+                                <u><strong>Platforms</strong></u>
+                                <li>Microsoft Azure <span class="badge badge-success">Good</span></li>
+                                <li>APEX <span class="badge badge-success">Good</span></li>
+                                <li>SFDX <span class="badge badge-success">Good</span></li>
+                                <li>Cisco Meraki <span class="badge badge-secondary">Beginner</span></li>
+
+                                <br />
+                                <u><strong>Game Engines</strong></u>
+                                <li>Unity3D <span class="badge badge-primary">Medium</span></li>
+                                <li>Unreal Engine <span class="badge badge-primary">Medium</span></li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Certificates</h5>
+                            <p class="card-text">
+                            <ul>
+                                <li>Microsoft Specialist (Client)</li>
+                                <li>ITILv4 Foundation</li>
+                                <li>Project assistant</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card mt-3">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Courses in</h5>
+                            <p class="card-text">
+                            <ul>
+                                <li>Scrum</li>
+                                <li>Lean Company</li>
+                                <li>Agile</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container mt-5">
+        <p class="text-secondary text-center mx-auto font-weight-light" style="width: 250px;">by AlexWeh, 2021
+            <br />powered by
+            <br />GitHub, Bootstrap and ☕
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<svg width="720" height="1280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="hidden">
+    <defs>
+        <clipPath id="clip0">
+            <rect x="0" y="50" width="720" height="1280" />
+        </clipPath>
+    </defs>
+    <g clip-path="url(#clip0)">
+        <rect x="0" y="50" width="720" height="1280" fill="none" />
+        <path d="M0 0 0.940577 52.4597" stroke="#000000" stroke-width="4" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(-1 0 0 1 254.941 147)" />
+        <path d="M241.5 213C241.5 205.544 247.544 199.5 255 199.5 262.456 199.5 268.5 205.544 268.5 213 268.5 220.456 262.456 226.5 255 226.5 247.544 226.5 241.5 220.456 241.5 213Z" stroke="#000000" stroke-width="1.33333" stroke-miterlimit="8" fill-rule="evenodd" />
+        <path d="M0 0C13.8027 0 27.6054 7.90738 27.6054 15.8148 27.6054 23.7222 41.408 31.6296 55.2107 31.6296" stroke="#289BD4" stroke-width="4" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1.83697e-16 1 1 -1.83697e-16 254 226)" />
+        <path d="M273.5 294.5C273.5 287.32 279.32 281.5 286.5 281.5 293.68 281.5 299.5 287.32 299.5 294.5 299.5 301.68 293.68 307.5 286.5 307.5 279.32 307.5 273.5 301.68 273.5 294.5Z" stroke="#289BD4" stroke-width="1.33333" stroke-miterlimit="8" fill="#289BD4" fill-rule="evenodd" />
+        <path d="M241.5 376C241.5 368.544 247.544 362.5 255 362.5 262.456 362.5 268.5 368.544 268.5 376 268.5 383.456 262.456 389.5 255 389.5 247.544 389.5 241.5 383.456 241.5 376Z" stroke="#009999" stroke-width="1.33333" stroke-miterlimit="8" fill="#009999" fill-rule="evenodd" />
+        <path d="M0 0C30.7834 0 61.5668 18.9019 61.5668 37.8037 61.5668 56.7056 92.3502 75.6073 123.134 75.6073" stroke="#009999" stroke-width="4" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1.83697e-16 1 1 -1.83697e-16 254 389)" />
+        <path d="M254 362.211C254 348.408 261.907 334.605 269.815 334.605 277.722 334.605 285.63 320.803 285.63 307" stroke="#289BD4" stroke-width="4" stroke-miterlimit="8" fill="none" fill-rule="evenodd" />
+        <path d="M330 511 332.265 595.832" stroke="#009999" stroke-width="4" stroke-miterlimit="8" fill="none" fill-rule="evenodd" />
+        <path d="M319.5 609.5C319.5 602.32 325.544 596.5 333 596.5 340.456 596.5 346.5 602.32 346.5 609.5 346.5 616.68 340.456 622.5 333 622.5 325.544 622.5 319.5 616.68 319.5 609.5Z" stroke="#05CCCC" stroke-width="1.33333" stroke-miterlimit="8" fill="#05CCCC" fill-rule="evenodd" />
+        <path d="M241.5 512.5C241.5 505.32 247.544 499.5 255 499.5 262.456 499.5 268.5 505.32 268.5 512.5 268.5 519.68 262.456 525.5 255 525.5 247.544 525.5 241.5 519.68 241.5 512.5Z" stroke="#009999" stroke-width="1.33333" stroke-miterlimit="8" fill="#009999" fill-rule="evenodd" />
+        <path d="M254 762.088C254 727.066 273.611 692.044 293.222 692.044 312.833 692.044 332.444 657.022 332.444 622" stroke="#05CCCC" stroke-width="4" stroke-miterlimit="8" fill="none" fill-rule="evenodd" />
+        <path d="M254 226 254 362.878" stroke="#000000" stroke-width="4" stroke-miterlimit="8" fill="none" fill-rule="evenodd" />
+        <path d="M254 389 254 498.905" stroke="#009999" stroke-width="4" stroke-miterlimit="8" fill="none" fill-rule="evenodd" />
+        <path d="M0 0 0.940682 312.221" stroke="#05CCCC" stroke-width="4" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(-1 0 0 1 253.941 525)" />
+        <path d="M240.5 851.5C240.5 844.32 246.544 838.5 254 838.5 261.456 838.5 267.5 844.32 267.5 851.5 267.5 858.68 261.456 864.5 254 864.5 246.544 864.5 240.5 858.68 240.5 851.5Z" stroke="#FC5555" stroke-width="1.33333" stroke-miterlimit="8" fill="#FC5555" fill-rule="evenodd" />
+        <path d="M253 864 253 974.028" stroke="#FC5555" stroke-width="4" stroke-miterlimit="8" fill="none" fill-rule="evenodd" />
+        <path d="M253 974 253 1044.38" stroke="#FC5555" stroke-width="4" stroke-miterlimit="8" stroke-dasharray="16 12" fill="none" fill-rule="evenodd" />
+        <path d="M240.5 1058C240.5 1050.54 246.544 1044.5 254 1044.5 261.456 1044.5 267.5 1050.54 267.5 1058 267.5 1065.46 261.456 1071.5 254 1071.5 246.544 1071.5 240.5 1065.46 240.5 1058Z" stroke="#FC5555" stroke-width="1.33333" stroke-miterlimit="8" fill="#FC5555" fill-rule="evenodd" />
+        <path d="M253 1071 253 1140.83" stroke="#000000" stroke-width="4" stroke-miterlimit="8" stroke-dasharray="16 12" fill="none" fill-rule="evenodd" />
+    </g>
+</svg>
